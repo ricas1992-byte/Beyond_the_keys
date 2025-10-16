@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beyond the Keys — Personal Assistant</title>
+  <link rel="icon" href="assets/brand.svg">
+  <link rel="stylesheet" href="assets/styles.css">
+  <meta name="theme-color" content="#0F2040">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <img src="assets/brand.svg" alt="Beyond the Keys" />
+    <div>
+      <h1>Beyond the Keys</h1>
+      <p class="subtitle">Personal Assistant</p>
+    </div>
+  </div>
+  <nav class="top-nav">
+    <a href="index.html">ראשי</a>
+    <a href="tasks.html">משימות</a>
+    <a href="writing.html">כתיבה</a>
+    <a href="content.html">תוכן</a>
+    <a href="goals.html">יעדים</a>
+    <a href="projects.html">פרויקטים</a>
+    <a href="health.html">בריאות</a>
+  </nav>
+</header>
+<main class="container">
+
+<section class="hero">
+  <h2>לוח בקרה — מבט מהיר</h2>
+  <p>נתונים נטענים מקובץ JSON או מגיליון Google Sheets (CSV).</p>
+</section>
+<section id="kpis" class="kpi-grid">
+  <div class="kpi-card"><div class="kpi-label">משימות פתוחות</div><div class="kpi-value" data-kpi="openTasks">—</div></div>
+  <div class="kpi-card"><div class="kpi-label">משימות שהושלמו</div><div class="kpi-value" data-kpi="doneTasks">—</div></div>
+  <div class="kpi-card"><div class="kpi-label">מילים היום</div><div class="kpi-value" data-kpi="wordsToday">—</div></div>
+  <div class="kpi-card"><div class="kpi-label">יעד מילים כולל</div><div class="kpi-value" data-kpi="goalWords">—</div></div>
+  <div class="kpi-card"><div class="kpi-label">פוסטים מתוזמנים</div><div class="kpi-value" data-kpi="scheduledPosts">—</div></div>
+</section>
+<section class="cards">
+  <a class="nav-card" href="tasks.html"><h3>משימות</h3><p>תעדוף ודד-ליינים</p></a>
+  <a class="nav-card" href="writing.html"><h3>כתיבה</h3><p>יעדים ומצטבר</p></a>
+  <a class="nav-card" href="content.html"><h3>תוכן</h3><p>פוסטים מתוזמנים</p></a>
+  <a class="nav-card" href="goals.html"><h3>יעדים</h3><p>יעד מול ביצוע</p></a>
+  <a class="nav-card" href="projects.html"><h3>פרויקטים</h3><p>אבני דרך</p></a>
+  <a class="nav-card" href="health.html"><h3>בריאות</h3><p>אנרגיה/שינה/אימון</p></a>
+</section>
+
+</main>
+<footer class="site-footer">
+  <p>© Beyond the Keys — Personal Assistant</p>
+</footer>
+<script src="assets/app.js" type="module"></script>
+</body>
+</html>

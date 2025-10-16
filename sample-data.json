@@ -1,0 +1,103 @@
+{
+  "tasks": [
+    {
+      "task": "Daily planning",
+      "project": "Personal Ops",
+      "priority": "High",
+      "status": "Open",
+      "due": "2025-10-16"
+    },
+    {
+      "task": "Writing sprint AM",
+      "project": "Book — המפתח",
+      "priority": "High",
+      "status": "Open",
+      "due": "2025-10-16"
+    },
+    {
+      "task": "Content idea capture",
+      "project": "Beyond the Keys",
+      "priority": "Medium",
+      "status": "Open",
+      "due": "2025-10-18"
+    },
+    {
+      "task": "Evening shutdown",
+      "project": "Personal Ops",
+      "priority": "Medium",
+      "status": "Open",
+      "due": "2025-10-16"
+    }
+  ],
+  "writing": [
+    {
+      "project": "המפתח לאימון — ספר 1",
+      "piece": "פרק 1 — איך המוח לומד",
+      "goalWords": 6000,
+      "wordsToday": 0,
+      "cumulativeWords": 0,
+      "status": "Drafting"
+    },
+    {
+      "project": "בלוג — Beyond the Keys",
+      "piece": "פוסט: 5 טעויות אימון",
+      "goalWords": 1200,
+      "wordsToday": 0,
+      "cumulativeWords": 0,
+      "status": "Idea"
+    }
+  ],
+  "content": [
+    {
+      "platform": "Instagram",
+      "title": "מה זה אימון חכם?",
+      "plannedDate": "2025-10-18",
+      "status": "Planned"
+    },
+    {
+      "platform": "YouTube",
+      "title": "איך המוח לומד מיומנויות (מבוא)",
+      "plannedDate": "",
+      "status": "Idea"
+    }
+  ],
+  "goals": [
+    {
+      "goal": "Finish Chapter draft",
+      "area": "Writing",
+      "metric": "Words",
+      "target": 6000
+    },
+    {
+      "goal": "Publish 8 social posts",
+      "area": "Brand",
+      "metric": "Posts",
+      "target": 8
+    }
+  ],
+  "projects": [
+    {
+      "project": "סדרת 'המפתח' — ספר 1",
+      "stage": "Drafting",
+      "milestone": "Chapter 1 complete",
+      "due": "2025-10-30",
+      "risk": "Medium"
+    },
+    {
+      "project": "אתר Beyond the Keys",
+      "stage": "Build",
+      "milestone": "Home page copy",
+      "due": "2025-10-23",
+      "risk": "Low"
+    }
+  ],
+  "health": [
+    {
+      "date": "2025-10-16",
+      "sleep": "7.5",
+      "energy": "4",
+      "practice": "30",
+      "notes": ""
+    }
+  ]
+}

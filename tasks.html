@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beyond the Keys — Personal Assistant</title>
+  <link rel="icon" href="assets/brand.svg">
+  <link rel="stylesheet" href="assets/styles.css">
+  <meta name="theme-color" content="#0F2040">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <img src="assets/brand.svg" alt="Beyond the Keys" />
+    <div>
+      <h1>Beyond the Keys</h1>
+      <p class="subtitle">Personal Assistant</p>
+    </div>
+  </div>
+  <nav class="top-nav">
+    <a href="index.html">ראשי</a>
+    <a href="tasks.html">משימות</a>
+    <a href="writing.html">כתיבה</a>
+    <a href="content.html">תוכן</a>
+    <a href="goals.html">יעדים</a>
+    <a href="projects.html">פרויקטים</a>
+    <a href="health.html">בריאות</a>
+  </nav>
+</header>
+<main class="container">
+
+<section>
+  <h2>משימות (Tasks)</h2>
+  <div class="filters">
+    <button data-filter="all">הכל</button>
+    <button data-filter="today">היום</button>
+    <button data-filter="week">השבוע</button>
+    <button data-filter="overdue">באיחור</button>
+  </div>
+  <table class="table" id="tasksTable">
+    <thead><tr><th>משימה</th><th>פרויקט</th><th>עדיפות</th><th>סטטוס</th><th>דד-ליין</th><th>דחיפות</th></tr></thead>
+    <tbody></tbody>
+  </table>
+</section>
+
+</main>
+<footer class="site-footer">
+  <p>© Beyond the Keys — Personal Assistant</p>
+</footer>
+<script src="assets/app.js" type="module"></script>
+</body>
+</html>
